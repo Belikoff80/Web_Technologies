@@ -1,0 +1,45 @@
+/* чтобы обратиться к классу, перед названием класса ставим точку ('.') */
+.Big_text {
+    font-size: 20px;
+    font-style: italic;
+    color: orange;
+}
+
+.small {
+    width: 240px;
+    height: 300px;
+}
+
+.Link {
+
+    color: darkgreen;
+    /* рамка вокруг ссылки */
+    outline: dotted brown;
+}
+
+
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+html {
+    background-color: dimgrey;
+}
+
+p {
+    color: aqua;
+}
+
+h1 {
+    color: brown;
+}
+
+a {
+    color: crimson;
+}
+
+ul {
+    color: aquamarine;
+}
