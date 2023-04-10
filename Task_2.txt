@@ -1,0 +1,15 @@
+; Задача №2: создать БД, состоящую из одной таблицы (информация об одногруппниках) 
+; с четырьмя полями (добавить поле «Адрес»): id, name, age, address.
+
+CREATE TABLE students (
+  studId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  adress TEXT NOT NULL
+);
+
+INSERT INTO students VALUES (0001, 'Вова', 23,"Москва" );
+INSERT INTO students VALUES (0002, 'Коля', 24, 'Санкт-Петербург');
+INSERT INTO students VALUES (0003, 'Леша', 21, 'Казань');
+
+SELECT * FROM students WHERE adress = 'Казань';
